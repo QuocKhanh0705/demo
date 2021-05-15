@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import items from "./data";
-import Client from "./Contentful";
 
 const RoomContext = React.createContext();
 
@@ -24,7 +23,6 @@ export default class RoomProvider extends Component {
 
   // getData = async () => {
   //   try {
-  //     let response = await Client.getEntries({
   //       content_type: "beachResortRoom"
   //     });
   //     let rooms = this.formatData(response.items);

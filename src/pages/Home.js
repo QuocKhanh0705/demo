@@ -4,16 +4,17 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
+
 const home = () => {
   return (
     <>
       <Hero>
         <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
+          title="Welcome to Adoda Resort"
+          subtitle="Tinh hoa văn hóa Việt"
         >
           <Link to="/rooms" className="btn-primary">
-            our rooms
+            Xem phòng ngay
           </Link>
         </Banner>
       </Hero>
